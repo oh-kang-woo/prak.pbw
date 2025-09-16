@@ -17,10 +17,14 @@ a {
 }
 
 .navbar {
+    border: 2px solid #7cf03d;
+    border-radius: 5px;
+    margin: 10px;   
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
+    right: 0;
+    width:auto;
     padding: 25px 9%;
     display: flex;
     justify-content: space-between;
@@ -52,6 +56,12 @@ a {
 .navbar ul li {
     list-style: none;
     margin-left: 35px;
+    border-radius: 5px; 
+    transition: 0.3s;
+}
+
+.navbar ul li:hover {
+    background: #7cf03d;
 }
 
 .navbar ul li a{
@@ -60,9 +70,8 @@ a {
     transition: .5s;
 }
 
-.navbar ul li:hover a{
-    color: #7cf03d;
-
+.navbar ul li:hover a {
+    color:#1f242d;
 }
 
 .home{
