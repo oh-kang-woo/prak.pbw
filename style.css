@@ -140,6 +140,7 @@ a {
 .home-info p{
     font-size: 20px;
     margin: 25px 0 25 px;
+    text-align: justify;
     
 }
 
@@ -147,6 +148,7 @@ a {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 10px;
 }
 
 .btn {
@@ -169,7 +171,7 @@ a {
 
 .home-info .btn-sci .sci {
     margin-left: 10px;
-    margin-top: 10px;
+
 }
 
 .home-info .btn-sci .sci a {
